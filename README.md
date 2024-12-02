@@ -8,3 +8,5 @@ The server creates and initializes a TCP socket on port 12345, accepts connectio
 #### UDP :
 The server manages the game state, including the 3x3 board, current player, and game logic such as making moves, checking for a winner, and determining if the board is full. When a player joins, their address is recorded, and the server sends the current game board after each move. Clients send their moves to the server, which validates them and updates the game state accordingly. Once a game concludes, players are prompted to decide whether to play again. The server and client communicate using structured messages, and the server handles reconnections and responses based on player input.
 
+## To run :
+Open 3 terminals out of which one should run the server and the other 2 should run the client.First server should be compiled and the clients should be compiled.
